@@ -4,49 +4,49 @@ import { Badge } from "@/components/ui/badge";
 
 const experiences = [
   {
-    type: "work",
-    title: "Senior Frontend Developer",
-    company: "Tech Company Inc.",
-    period: "2023 - Present",
+    type: "course",
+    title: "Frontend Dasturlash (Onlayn Kurs)",
+    company: "PDP Academy",
+    period: "04/2021 - 11/2021",
     description:
-      "Leading frontend development for enterprise web applications. Implementing modern React patterns and improving team productivity through code reviews and mentorship.",
-    technologies: ["React", "TypeScript", "Next.js", "GraphQL"],
+        "HTML, CSS, JavaScript, adaptiv dizayn va API bilan ishlashni o‘rgandim. Amaliy loyihalar orqali tajriba orttirdim.",
+    technologies: ["HTML", "CSS", "JavaScript", "API", "Responsive Design"],
+  },
+  {
+    type: "course",
+    title: "Frontend Developer (kurs)",
+    company: "ITEG IT Academy",
+    period: "02/2022 - 05/2022",
+    description:
+        "Zamonaviy web-texnologiyalar, frameworklar va foydalanuvchi interfeyslarini optimallashtirishni o‘rgandim.",
+    technologies: ["Vue.js", "Frontend", "UI/UX", "Web Development"],
   },
   {
     type: "work",
-    title: "Full-Stack Developer",
-    company: "Startup Labs",
-    period: "2021 - 2023",
+    title: "Frontend Developer (Stajyor)",
+    company: "IT Academy",
+    period: "12/2022 - 2024",
     description:
-      "Built and maintained multiple web applications from scratch. Collaborated with designers and product managers to deliver user-focused solutions.",
-    technologies: ["Vue.js", "Node.js", "PostgreSQL", "Docker"],
-  },
-  {
-    type: "work",
-    title: "Junior Web Developer",
-    company: "Digital Agency",
-    period: "2020 - 2021",
-    description:
-      "Developed responsive websites and web applications for various clients. Gained experience in Agile methodologies and client communication.",
-    technologies: ["JavaScript", "React", "CSS", "REST APIs"],
+        "HTML, CSS, JavaScript va React.js yordamida web-interfeyslar yaratdim. Moslashuvchan va interaktiv dizaynlar ishlab chiqishda qatnashdim.",
+    technologies: ["HTML", "CSS", "JavaScript", "React.js"],
   },
   {
     type: "education",
-    title: "Bachelor of Computer Science",
-    company: "State University",
-    period: "2016 - 2020",
+    title: "Kompyuter fanlari bakalavri (Dasturiy injiniring)",
+    company: "Sharof Rashidov nomidagi Samarqand davlat universiteti",
+    period: "2020 - 2024",
     description:
-      "Focused on Software Engineering and Web Development. Graduated with honors and completed thesis on modern web application architecture.",
-    technologies: ["Algorithms", "Data Structures", "Software Design"],
+        "Dasturiy ta’minot arxitekturasi, dasturlash asoslari va zamonaviy IT texnologiyalarni o‘rgandim. Web dasturlash va ma’lumotlar bazalari bilan ishlash bo‘yicha amaliy tajriba oldim.",
+    technologies: ["Dasturlash", "Web Development", "Ma’lumotlar bazasi", "IT asoslari"],
   },
   {
-    type: "freelance",
-    title: "Freelance Developer",
-    company: "Self-employed",
-    period: "2019 - 2020",
+    type: "work",
+    title: "Frontend Developer",
+    company: "Mikrokreditbank",
+    period: "06/2025 - Hozirgi vaqtgacha",
     description:
-      "Provided web development services to small businesses and startups. Built custom solutions tailored to client needs.",
-    technologies: ["WordPress", "PHP", "JavaScript", "MySQL"],
+        "CRM tizimlari va web-ilovalarni qo‘llab-quvvatlash, rivojlantirish va ishlab chiqish bilan shug‘ullanaman. Ichki tizimlar va foydalanuvchilar uchun texnik yordam ko‘rsataman.",
+    technologies: ["Vue.js", "CRM", "REST API", "Tailwind CSS", "Git",'GitLab'],
   },
 ];
 
@@ -56,14 +56,15 @@ export function ExperienceSection() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-4 mb-16">
           <p className="text-primary font-medium tracking-wide uppercase text-sm">
-            My Journey
+            Mening Yo‘lim
           </p>
+
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">
-            Experience & Education
+            Tajriba va Ta’lim
           </h2>
+
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            A timeline of my professional journey, from education to my current
-            role.
+            Ta’limdan boshlab hozirgi faoliyatimgacha bo‘lgan professional yo‘lim.
           </p>
         </div>
 

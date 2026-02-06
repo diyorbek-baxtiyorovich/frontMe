@@ -4,10 +4,10 @@ import { ArrowUp, Github, Linkedin, Mail, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: MessageCircle, href: "https://t.me", label: "Telegram" },
-  { icon: Mail, href: "mailto:hello@johndoe.dev", label: "Email" },
+  { icon: Github, href: "https://github.com/diyorbek-baxtiyorovich", label: "GitHub" },
+  { icon: Linkedin, href: "https://linkedin.com/in/diyorbek-ilxomiddinov", label: "LinkedIn" },
+  { icon: MessageCircle, href: "https://t.me/I_Dior", label: "Telegram" },
+  { icon: Mail, href: "mailto:ilxomiddinovdiyorbek1@gmail.com", label: "Email" },
 ];
 
 const footerLinks = [
@@ -31,10 +31,10 @@ export function Footer() {
           {/* Logo & Copyright */}
           <div className="text-center md:text-left">
             <a href="#home" className="text-xl font-bold">
-              <span className="gradient-text">John Doe</span>
+              <span className="gradient-text">Ilxomiddinov Diyorbek</span>
             </a>
             <p className="text-sm text-muted-foreground mt-2">
-              {new Date().getFullYear()} All rights reserved.
+              ©  {new Date().getFullYear()} Diyorbek. Barcha huquqlar himoyalangan.
             </p>
           </div>
 
