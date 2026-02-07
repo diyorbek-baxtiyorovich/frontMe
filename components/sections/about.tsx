@@ -58,10 +58,12 @@ export function AboutSection() {
               </p>
             </div>
 
-            <Button size="lg" className="mt-4">
-              <Download className="mr-2 h-4 w-4" />
-              Download CV
-            </Button>
+            <a href="/CVme.pdf" download>
+              <Button size="lg" className="mt-4">
+                <Download className="mr-2 h-4 w-4" />
+                Download CV
+              </Button>
+            </a>
           </div>
 
           <div className="space-y-6">

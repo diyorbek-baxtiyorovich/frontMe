@@ -60,8 +60,8 @@ export function HeroSection() {
                 Assalomu alaykum hush kelibsizlar
               </p>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-balance">
-                Hi, I{"'"}m{" "}
-                <span className="gradient-text">Ilxomiddinov Diyorbek</span>
+                Salom, Men
+                <span className="gradient-text"> Ilxomiddinov Diyorbek</span>
               </h1>
               <div className="h-12 flex items-center">
                 <span className="text-xl sm:text-2xl text-muted-foreground">
