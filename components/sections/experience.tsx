@@ -45,21 +45,21 @@ const experiences = [
     ],
   },
   {
-    type: "work",
-    title: "Frontend dasturchi",
-    company: "Mikrokreditbank",
-    period: "06/2025 – hozirgi vaqtgacha",
-    description:
-      "CRM tizimlari va web-ilovalarni ishlab chiqish, rivojlantirish va qo‘llab-quvvatlash bilan shug‘ullanaman. Ichki tizimlar uchun texnik yordam ko‘rsataman.",
-    technologies: [
-      "Vue.js",
-      "CRM",
-      "REST API",
-      "Tailwind CSS",
-      "Git",
-      "GitLab",
-    ],
-  },
+  type: "work",
+  title: "Frontend dasturchi",
+  company: "Mikrokreditbank",
+  period: "06/2025 – hozirgi vaqtgacha",
+  description:
+    "Bankning ichki CRM tizimlari va web-ilovalarini ishlab chiqish, rivojlantirish hamda optimallashtirish bilan shug‘ullanaman. Foydalanuvchilar uchun qulay, xavfsiz va barqaror interfeyslar yarataman, mavjud funksionalliklarni takomillashtiraman. Backend jamoa bilan hamkorlikda REST API orqali ma’lumotlar almashinuvi ustida ishlayman hamda ichki tizimlar bo‘yicha texnik qo‘llab-quvvatlash ko‘rsataman.",
+  technologies: [
+    "Vue.js",
+    "CRM",
+    "REST API",
+    "Tailwind CSS",
+    "Git",
+    "GitLab",
+  ],
+},
 ];
 
 export function ExperienceSection() {
