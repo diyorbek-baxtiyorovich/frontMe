@@ -11,12 +11,12 @@ const socialLinks = [
 ];
 
 const footerLinks = [
-  { href: "#home", label: "Home" },
-  { href: "#about", label: "About" },
-  { href: "#skills", label: "Skills" },
-  { href: "#projects", label: "Projects" },
-  { href: "#experience", label: "Experience" },
-  { href: "#contact", label: "Contact" },
+  { href: "#home", label: "Bosh sahifa" },
+  { href: "#about", label: "Men haqimda" },
+  { href: "#skills", label: "Ko‘nikmalar" },
+  { href: "#projects", label: "Loyihalar" },
+  { href: "#experience", label: "Tajriba" },
+  { href: "#contact", label: "Bog‘lanish" },
 ];
 
 export function Footer() {
@@ -34,7 +34,8 @@ export function Footer() {
               <span className="gradient-text">Ilxomiddinov Diyorbek</span>
             </a>
             <p className="text-sm text-muted-foreground mt-2">
-              ©  {new Date().getFullYear()} Diyorbek. Barcha huquqlar himoyalangan.
+              © {new Date().getFullYear()} Ilxomiddinov Diyorbek.  <br />
+              Ishonchli va sifatli web-yechimlar.
             </p>
           </div>
 

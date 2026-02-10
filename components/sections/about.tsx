@@ -8,17 +8,17 @@ const highlights = [
   {
     icon: GraduationCap,
     title: "Ta’lim",
-    description: "Dasturiy injiniring yo‘nalishida kompyuter fanlari bo‘yicha ta’lim olgan",
+    description: "Dasturiy injiniring yo‘nalishida kompyuter fanlari bo‘yicha tahsil olganman",
   },
   {
     icon: Briefcase,
     title: "Tajriba",
-    description: "2+ yil davomida web-ilovalar va raqamli mahsulotlar yaratish tajribasi",
+    description: "2 yildan ortiq web-ilovalar va raqamli mahsulotlar yaratish tajribasiga egaman",
   },
   {
     icon: Target,
-    title: "Maqsadlar",
-    description: "Foydalanuvchilar uchun qulay va sifatli web-ilovalar yaratish",
+    title: "Maqsadlarim",
+    description: "Foydalanuvchilar uchun qulay, tezkor va sifatli web-ilovalar yaratish",
   },
 ];
 
@@ -30,10 +30,10 @@ export function AboutSection() {
           <div className="space-y-6">
             <div className="space-y-2">
               <p className="text-primary font-medium tracking-wide uppercase text-sm">
-                About Me
+                Men haqimda
               </p>
               <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-balance">
-                Zamonaviy va qulay web-ilovalar yaratishga ixtisoslashgan frontend dasturchi
+                Zamonaviy va qulay web-ilovalar yaratishga ixtisoslashgan frontend dasturchiman
               </h2>
             </div>
 
@@ -45,23 +45,23 @@ export function AboutSection() {
               </p>
 
               <p>
-                Hozirda moliyaviy tashkilotning IT sohasida faoliyat yuritaman, u yerda
-                web-interfeyslarni yaratish, rivojlantirish va optimallashtirish bilan
-                shug‘ullanaman. Loyihalarda zamonaviy frontend texnologiyalaridan
-                samarali foydalanaman.
+                Hozirda moliyaviy tashkilotning IT bo‘limida faoliyat yuritaman. Ushbu
+                tashkilotda web-interfeyslarni yaratish, rivojlantirish va
+                optimallashtirish bilan shug‘ullanaman. Loyihalarda zamonaviy frontend
+                texnologiyalaridan samarali foydalanaman.
               </p>
 
               <p>
-                Toza va tushunarli kod yozishga, yangi texnologiyalarni o‘rganishga va
-                bilimlarimni doimiy rivojlantirishga katta e’tibor beraman. Bo‘sh vaqtimda
-                yangi frameworklarni o‘rganaman va tajribamni oshirib boraman.
+                Toza va tushunarli kod yozishga, yangi texnologiyalarni o‘rganishga hamda
+                bilimlarimni doimiy ravishda oshirib borishga katta e’tibor beraman.
+                Bo‘sh vaqtimda yangi frameworklarni o‘rganib, tajribamni boyitaman.
               </p>
             </div>
 
             <a href="/CVme.pdf" download>
               <Button size="lg" className="mt-4">
                 <Download className="mr-2 h-4 w-4" />
-                Download CV
+                Rezyumeni yuklab olish
               </Button>
             </a>
           </div>

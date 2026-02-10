@@ -5,48 +5,60 @@ import { Badge } from "@/components/ui/badge";
 const experiences = [
   {
     type: "course",
-    title: "Frontend Dasturlash (Onlayn Kurs)",
+    title: "Frontend dasturlash (onlayn kurs)",
     company: "PDP Academy",
-    period: "04/2021 - 11/2021",
+    period: "04/2021 – 11/2021",
     description:
-        "HTML, CSS, JavaScript, adaptiv dizayn va API bilan ishlashni o‘rgandim. Amaliy loyihalar orqali tajriba orttirdim.",
-    technologies: ["HTML", "CSS", "JavaScript", "API", "Responsive Design"],
+      "HTML, CSS, JavaScript, moslashuvchan dizayn va API bilan ishlashni o‘rgandim. Amaliy loyihalar orqali tajribamni oshirdim.",
+    technologies: ["HTML", "CSS", "JavaScript", "API", "Moslashuvchan dizayn"],
   },
   {
     type: "course",
-    title: "Frontend Developer (kurs)",
+    title: "Frontend dasturchi (kurs)",
     company: "ITEG IT Academy",
-    period: "02/2022 - 05/2022",
+    period: "02/2022 – 05/2022",
     description:
-        "Zamonaviy web-texnologiyalar, frameworklar va foydalanuvchi interfeyslarini optimallashtirishni o‘rgandim.",
-    technologies: ["Vue.js", "Frontend", "UI/UX", "Web Development"],
+      "Zamonaviy web-texnologiyalar, frameworklar va foydalanuvchi interfeyslarini samarali optimallashtirishni o‘rgandim.",
+    technologies: ["Vue.js", "Frontend", "UI/UX", "Web dasturlash"],
   },
   {
     type: "work",
-    title: "Frontend Developer (Stajyor)",
+    title: "Frontend dasturchi (stajyor)",
     company: "IT Academy",
-    period: "12/2022 - 2024",
+    period: "12/2022 – 2024",
     description:
-        "HTML, CSS, JavaScript va React.js yordamida web-interfeyslar yaratdim. Moslashuvchan va interaktiv dizaynlar ishlab chiqishda qatnashdim.",
+      "HTML, CSS, JavaScript va React.js yordamida web-interfeyslar yaratdim. Moslashuvchan va interaktiv dizaynlar ustida ishladim.",
     technologies: ["HTML", "CSS", "JavaScript", "React.js"],
   },
   {
     type: "education",
     title: "Kompyuter fanlari bakalavri (Dasturiy injiniring)",
     company: "Sharof Rashidov nomidagi Samarqand davlat universiteti",
-    period: "2020 - 2024",
+    period: "2020 – 2024",
     description:
-        "Dasturiy ta’minot arxitekturasi, dasturlash asoslari va zamonaviy IT texnologiyalarni o‘rgandim. Web dasturlash va ma’lumotlar bazalari bilan ishlash bo‘yicha amaliy tajriba oldim.",
-    technologies: ["Dasturlash", "Web Development", "Ma’lumotlar bazasi", "IT asoslari"],
+      "Dasturiy ta’minot arxitekturasi, dasturlash asoslari va zamonaviy IT texnologiyalarini o‘rgandim. Web dasturlash va ma’lumotlar bazalari bilan ishlash bo‘yicha amaliy tajriba orttirdim.",
+    technologies: [
+      "Dasturlash",
+      "Web dasturlash",
+      "Ma’lumotlar bazasi",
+      "IT asoslari",
+    ],
   },
   {
     type: "work",
-    title: "Frontend Developer",
+    title: "Frontend dasturchi",
     company: "Mikrokreditbank",
-    period: "06/2025 - Hozirgi vaqtgacha",
+    period: "06/2025 – hozirgi vaqtgacha",
     description:
-        "CRM tizimlari va web-ilovalarni qo‘llab-quvvatlash, rivojlantirish va ishlab chiqish bilan shug‘ullanaman. Ichki tizimlar va foydalanuvchilar uchun texnik yordam ko‘rsataman.",
-    technologies: ["Vue.js", "CRM", "REST API", "Tailwind CSS", "Git",'GitLab'],
+      "CRM tizimlari va web-ilovalarni ishlab chiqish, rivojlantirish va qo‘llab-quvvatlash bilan shug‘ullanaman. Ichki tizimlar uchun texnik yordam ko‘rsataman.",
+    technologies: [
+      "Vue.js",
+      "CRM",
+      "REST API",
+      "Tailwind CSS",
+      "Git",
+      "GitLab",
+    ],
   },
 ];
 
@@ -56,15 +68,15 @@ export function ExperienceSection() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-4 mb-16">
           <p className="text-primary font-medium tracking-wide uppercase text-sm">
-            Mening Yo‘lim
+            Mening faoliyat yo‘lim
           </p>
 
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">
-            Tajriba va Ta’lim
+            Tajriba va ta’lim
           </h2>
 
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Ta’limdan boshlab hozirgi faoliyatimgacha bo‘lgan professional yo‘lim.
+            Ta’lim olish davrimdan boshlab hozirgi faoliyatimgacha bo‘lgan kasbiy yo‘lim.
           </p>
         </div>
 
@@ -93,11 +105,17 @@ export function ExperienceSection() {
                     <span className="text-sm text-primary font-medium">
                       {exp.period}
                     </span>
-                    <h3 className="text-xl font-semibold mt-2">{exp.title}</h3>
+
+                    <h3 className="text-xl font-semibold mt-2">
+                      {exp.title}
+                    </h3>
+
                     <p className="text-muted-foreground">{exp.company}</p>
+
                     <p className="text-sm text-muted-foreground mt-3 leading-relaxed">
                       {exp.description}
                     </p>
+
                     <div
                       className={`flex flex-wrap gap-2 mt-4 ${
                         idx % 2 === 0 ? "md:justify-end" : ""
@@ -116,7 +134,7 @@ export function ExperienceSection() {
                   </div>
                 </div>
 
-                {/* Empty space for alternating layout */}
+                {/* Empty space */}
                 <div className="hidden md:block md:w-1/2" />
               </div>
             ))}

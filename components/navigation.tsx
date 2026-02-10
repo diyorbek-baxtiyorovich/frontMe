@@ -6,12 +6,12 @@ import { Button } from "@/components/ui/button";
 import { useTheme } from "next-themes";
 
 const navLinks = [
-  { href: "#home", label: "Home" },
-  { href: "#about", label: "About" },
-  { href: "#skills", label: "Skills" },
-  { href: "#projects", label: "Projects" },
-  { href: "#experience", label: "Experience" },
-  { href: "#contact", label: "Contact" },
+  { href: "#home", label: "Bosh sahifa" },
+  { href: "#about", label: "Men haqimda" },
+  { href: "#skills", label: "Ko‘nikmalar" },
+  { href: "#projects", label: "Loyihalar" },
+  { href: "#experience", label: "Tajriba" },
+  { href: "#contact", label: "Bog‘lanish" },
 ];
 
 export function Navigation() {
@@ -62,7 +62,7 @@ export function Navigation() {
             href="#home"
             className="text-xl font-bold tracking-tight font-sans"
           >
-            <span className="gradient-text">ID</span>
+            <span className="gradient-text">Front-dev</span>
           </a>
 
           {/* Desktop Navigation */}
